@@ -1,15 +1,10 @@
-import "./styles/index.scss";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App";
 
-const obj = {
-  name: "Danila",
-  age: 26,
-  number: 88005553535,
-};
-
-const newObj = {
-  ...obj,
-  weight: 70,
-};
-
-console.log(obj);
-console.log(newObj);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
