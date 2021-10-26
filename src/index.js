@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const obj = {
   name: "Danila",
   age: 26,
